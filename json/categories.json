@@ -1,1 +1,1 @@
-{"marcas":["Volvo","Mercedez","Ford","Audi"],"tipo":["Auto","Camioneta","Sedán"]}
+{ "categories": ["marcas", "tipo"], "marcas": ["Volvo", "Mercedez", "Ford", "Audi"], "tipo": ["Auto", "Camioneta", "Sedán"] }
