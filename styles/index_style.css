@@ -1,43 +1,61 @@
 body {
-    background-color: rgb(243, 243, 243);
+    background-color: #eeebdd;
 }
 
 header {
     height: 5em;
-    background-color: rgb(53, 53, 53);
+    background-color: #630000;
     color: rgb(255, 168, 6);
+    border-radius: 1em 1em 0px 0px;
+    padding: 1em;
+}
+
+header a {
+    font-size: 3em;
+    color: #eeebdd;
 }
 
 main {
+    box-shadow: 0px 0px 10px black;
     width: 80%;
-    border: 1px solid rgb(65, 65, 65);
     margin: auto;
     height: 600px;
 }
 
 footer {
     height: 5em;
-    background-color: rgb(53, 53, 53);
+    background-color: #630000;
     color: rgb(255, 168, 6);
+    border-radius: 0px 0px 1em 1em;
 }
 
 #products_search {
     margin: 2em;
     padding: 0.5em;
-    background-color: teal;
+    background-color: #630000;
     width: 30%;
     align-self: left;
+}
+
+#products_search p {
+    color: #eeebdd;
+    margin-left: 1em;
+    font-size: 2em;
+    line-height: 0.5em;
+    align-self: center;
 }
 
 .category {
     height: 2em;
     margin: 0.5em;
-    background-color: thistle;
+    background-color: rgb(255, 255, 255);
     border-radius: 0.5em;
     border: 1px solid gray;
 }
 
 .category a {
+    text-decoration: none;
+    color: #1b1717;
     text-align: center;
     display: block;
     width: 100%;
@@ -45,6 +63,7 @@ footer {
 }
 
 .categories {
-    box-shadow: 0px 5px 8px rgb(97, 97, 97);
+    background-color: #810000;
     margin-top: 1em;
+    padding: 0.5em;
 }

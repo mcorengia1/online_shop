@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const fs = require('fs');
 
 var server = app.listen(3000, function() {
     //Codigo que se ejecuta cada vez que se levanta el server
@@ -12,4 +13,9 @@ app.use(express.static(__dirname));
 app.get('/', function(req, res) {
     //Codigo que se ejecuta cada vez que se accese a '/'
     res.sendFile(__dirname + '/index.html');
+})
+
+//Gestiono las direcciones dinamicas que llegan desde index.html
+app.get('/:category', function(req, res) {
+
 })
