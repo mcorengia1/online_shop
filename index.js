@@ -26,8 +26,8 @@ app.get('/:category/:sub_category', function (req, res) {
 
     data.elements.forEach(element => {
 
-console.log(req.params.category);
-console.log(req.params.sub_category);
+        console.log(req.params.category);
+        console.log(req.params.sub_category);
 
 
         if (element[req.params.category] == req.params.sub_category) {
