@@ -1,0 +1,52 @@
+{
+    "elements": [
+        {
+            "nombre": "Audi 001",
+            "tipo": "Auto",
+            "marca": "Audi",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Audi 002",
+            "tipo": "Auto",
+            "marca": "Audi",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Audi 003",
+            "tipo": "Camioneta",
+            "marca": "Audi",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Mercedez 001",
+            "tipo": "Auto",
+            "marca": "Mercedez",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Mercedez 002",
+            "tipo": "Auto",
+            "marca": "Mercedez",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Ford 001",
+            "tipo": "Camioneta",
+            "marca": "Ford",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Ford 002",
+            "tipo": "Camioneta",
+            "marca": "Audi",
+            "precio": "10000"
+        },
+        {
+            "nombre": "Volvo 001",
+            "tipo": "Auto",
+            "marca": "Volvo",
+            "precio": "10000"
+        }
+    ]
+}

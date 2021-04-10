@@ -47,7 +47,7 @@ function loadCategories(categories) {
             let subCategoriesCount;
 
             categoryDiv.className = 'category';
-            categoryA.href = '/' + categories[category][index];
+            categoryA.href = '/' + category + '/' + categories[category][index];
             categoryA.text = categories[category][index];
 
             productsSearch.children[categoriesCount - 1].appendChild(categoryDiv);
