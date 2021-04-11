@@ -1,0 +1,11 @@
+head
+    title #{titulo}
+    link(rel="stylesheet", href="style.css")
+
+h1 Contenido Dinamico 
+
+    if datos
+        h2 ID del usuario >  #{datos.ID}
+        h2 Usuario > #{datos.Usuario}
+    else 
+        h2 No hay datos disponibles
