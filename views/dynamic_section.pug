@@ -1,11 +1,24 @@
 head
     title #{titulo}
-    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="../styles/section_style.css")
 
-h1 Contenido Dinamico 
+body
 
-    if datos
-        h2 ID del usuario >  #{datos.ID}
-        h2 Usuario > #{datos.Usuario}
-    else 
-        h2 No hay datos disponibles
+    div(class="header")
+       a(href="../index.html") Online Shop
+
+    div(class="main")
+        each element in elements
+            div(class='item')
+                img(src='/images/' + element.image_url)
+
+                div(class='description')                
+                    h3 #{element.nombre}
+                    p #{element.tipo}
+                    p #{element.marca}
+                    p $#{element.precio}
+                
+
+    div(class="footer")
+
+

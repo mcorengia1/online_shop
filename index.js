@@ -41,6 +41,7 @@ app.get('/:category/:sub_category', function (req, res) {
 
     //Generar dinamicamente la pagina con los resultados deseados
 
+    filteredElements = {elements : filteredElements};
     res.render("dynamic_section.pug", filteredElements);
     console.log(filteredElements);
 })

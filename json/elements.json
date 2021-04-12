@@ -1,52 +1,67 @@
 {
     "elements": [
         {
-            "nombre": "Audi 001",
+            "nombre": "Audi A3 Sportback 1.4 Tsi Mt",
             "tipo": "Auto",
             "marca": "Audi",
-            "precio": "10000"
+            "precio": "10800",
+            "image_url": "audi_a3_sportback.jpg" 
         },
         {
-            "nombre": "Audi 002",
+            "nombre": "Audi A5 2.0 T Fsi Multitronic 211cv 2 p",
             "tipo": "Auto",
             "marca": "Audi",
-            "precio": "10000"
+            "precio": "19100",
+            "image_url": "audi_a5_fsi.jpg" 
         },
         {
-            "nombre": "Audi 003",
+            "nombre": "Audi Q8 55 T Fsi",
             "tipo": "Camioneta",
             "marca": "Audi",
-            "precio": "10000"
+            "precio": "174000",
+            "image_url": "audi_q8_55_tfsi.jpg" 
         },
         {
-            "nombre": "Mercedez 001",
+            "nombre": "Mercedes-Benz Clase A 2.0 A 250 At Sport B.efficiency",
             "tipo": "Auto",
             "marca": "Mercedez",
-            "precio": "10000"
+            "precio": "25200",
+            "image_url": "mercedes_a_2.jpg" 
         },
         {
-            "nombre": "Mercedez 002",
+            "nombre": "Mercedes-Benz Clase GLC 2.0 Glc250 300 4matic Atomático",
             "tipo": "Auto",
             "marca": "Mercedez",
-            "precio": "10000"
+            "precio": "69000",
+            "image_url": "mercedez_glc_2.jpg" 
         },
         {
-            "nombre": "Ford 001",
+            "nombre": "Ford Ecosport 2.0 Gdi Se 170cv 4x2",
             "tipo": "Camioneta",
             "marca": "Ford",
-            "precio": "10000"
+            "precio": "15100",
+            "image_url": "ford_ecosport_gdi_2.jpg" 
         },
         {
-            "nombre": "Ford 002",
+            "nombre": "Ford Ranger 2.2 Cd Xl Tdci 125cv 4x4",
             "tipo": "Camioneta",
-            "marca": "Audi",
-            "precio": "10000"
+            "marca": "Ford",
+            "precio": "22700",
+            "image_url": "ford_ranger_2_2.jpg" 
         },
         {
-            "nombre": "Volvo 001",
+            "nombre": "Volvo XC60 3.0 T6 High 304cv At Awd",
             "tipo": "Auto",
             "marca": "Volvo",
-            "precio": "10000"
+            "precio": "20000",
+            "image_url": "volvo_xc60_3_t6.jpg" 
+        },
+        {
+            "nombre": "Volvo S60 2.0 T6 Inscription",
+            "tipo": "Auto",
+            "marca": "Volvo",
+            "precio": "25000",
+            "image_url": "volvo_s60_2_t6.jpg" 
         }
     ]
 }
