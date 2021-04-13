@@ -51,6 +51,11 @@
     margin: 0.5em;
 }
 
+.notFound{
+    font-size: 2em;
+    margin: 2em;
+}
+
 .footer {
     height: 5em;
     background-color: #630000;

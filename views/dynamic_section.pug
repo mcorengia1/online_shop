@@ -8,16 +8,18 @@ body
        a(href="../index.html") Online Shop
 
     div(class="main")
-        each element in elements
-            div(class='item')
-                img(src='/images/' + element.image_url)
+        if(elements)
+            each element in elements
+                div(class='item')
+                    img(src='/images/' + element.image_url)
 
-                div(class='description')                
-                    h3 #{element.nombre}
-                    p #{element.tipo}
-                    p #{element.marca}
-                    p $#{element.precio}
-                
+                    div(class='description')                
+                        h3 #{element.nombre}
+                        p #{element.tipo}
+                        p #{element.marca}
+                        p $#{element.precio}
+        else
+            p(class='notFound') No se encontraron elementos que coincidan con la busqueda                    
 
     div(class="footer")
 
