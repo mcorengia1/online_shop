@@ -26,14 +26,9 @@ app.get('/:category/:sub_category', function (req, res) {
 
     data.elements.forEach(element => {
 
-        console.log(req.params.category);
-        console.log(req.params.sub_category);
-
-
         if (element[req.params.category] == req.params.sub_category) {
 
             filteredElements.push(element);
-            console.log("match");
 
         }
 
@@ -50,9 +45,7 @@ app.get('/:category/:sub_category', function (req, res) {
 
         filteredElements = { elements: filteredElements };
         res.render("dynamic_section.pug", filteredElements);
-        console.log(filteredElements);
 
     }
-
 
 })

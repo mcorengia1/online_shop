@@ -39,8 +39,6 @@ function loadCategories(categories) {
         console.log(categoriesCount);
 
         for (let index in categories[category]) {
-            console.log(categories[category][index]);
-            console.log(productsSearch.children[categoriesCount - 1]);
 
             let categoryDiv = document.createElement('div');
             let categoryA = document.createElement('a');
